@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: greer-ord_app_1
+      APP_HOST: greer-ord-app_1
       APP_PORT: 8066
     
   app:
