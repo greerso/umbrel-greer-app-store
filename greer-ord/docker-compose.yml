@@ -9,7 +9,7 @@ services:
       APP_PORT: 8066
     
   app:
-    image: greerso/ord:v0.5.1@sha256:72f1a0b6b1033b75ed0270281846f7017a0efab707371d44ea83713b2030959a
+    image: greerso/ord:v0.5.1@sha256:04f40ab857ecfd8ba87ea2f525d366836fa344b980db356ba4cdbb3ea2942f95
     restart: on-failure
     user: "1000:1000"
     volumes:
