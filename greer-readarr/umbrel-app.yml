@@ -1,5 +1,6 @@
 manifestVersion: 1.1
 id: greer-readarr
+icon: https://raw.githubusercontent.com/Readarr/Readarr/develop/Logo/Readarr.svg
 category: media
 name: Readarr
 version: "0.3.16"
