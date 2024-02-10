@@ -1,30 +1,27 @@
-manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
-category: Development
-version: "1.0.0"
-port: 4000
+manifestVersion: 1.1
+id: readarr
+category: media
+name: Readarr
+version: "0.3.16"
+tagline: Your book collection manager
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+  Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books from your favorite authors and will grab, sort, and rename them. Note that only one type of a given book is supported. If you want both an audiobook and ebook of a given book you will need multiple instances.
+developer: Readarr
+website: https://readarr.com/
+dependencies:
+  - transmission
+repo: https://github.com/Readarr/Readarr
+support: https://github.com/Readarr/Readarr/issues
+port: 8787
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  Add what's new in the latest version of your app here.
-dependencies: []
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+submitter: Choff3
+submission: https://github.com/getumbrel/umbrel-apps/pull/712
